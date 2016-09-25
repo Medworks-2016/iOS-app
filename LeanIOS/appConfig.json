@@ -1,0 +1,335 @@
+{
+  "services": {
+    "parse": {
+      "pushEnabled": false,
+      "active": false
+    },
+    "facebook": {
+      "active": false
+    },
+    "oneSignal": {
+      "active": false
+    },
+    "registration": {
+      "endpoints": [
+        {
+          "dataType": [
+            "parse",
+            "oneSignal"
+          ],
+          "urlRegex": null,
+          "url": null
+        }
+      ],
+      "active": false
+    },
+    "analytics": {
+      "active": false
+    },
+    "push": {
+      "active": false
+    }
+  },
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "usesGeolocation": true
+  },
+  "forms": {
+    "signupConfig": {
+      "active": false,
+      "formSelector": null,
+      "formInputs": []
+    },
+    "loginConfig": {
+      "formSelector": null,
+      "loginIsFirstPage": false,
+      "formInputs": []
+    },
+    "search": {
+      "active": false,
+      "searchTemplateURL": "http://www.google.com/#q=[search terms]"
+    },
+    "interceptForms": {
+      "forms": []
+    }
+  },
+  "styling": {
+    "icon": "https://gonative.s3.amazonaws.com/uploads/bh07071vcgf4j_1474781699092.png",
+    "iosHeaderImage": "https://gonative.s3.amazonaws.com/uploads/kdrnf4v0k5b4y_1474761956342.png",
+    "showActionBar": true,
+    "showNavigationBar": true,
+    "iosSidebarFont": "Verdana",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "light",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#777777",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#777777",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidTabBarBackgroundColor": "#bdbdbd",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "iosTitleColor": "#333333",
+    "iosTintColor": "#0091fe",
+    "iosSidebarTextColor": "#333333",
+    "androidStatusBarBackgroundColor": "#909090",
+    "navigationTitleImageLocation": "https://gonative.s3.amazonaws.com/uploads/drjd6009e6a4w_1474761912634.png",
+    "hideWebviewAlpha": 0.5,
+    "disableAnimations": false,
+    "androidShowSplash": true,
+    "iosLaunchImages": {
+      "ios_launch_750x1334": "https://s3.amazonaws.com/gonative/images_generated/1474787286040_c6wyk7g6e78ug.png"
+    },
+    "menuAnimationDuration": 0.15,
+    "transitionInteractiveDelayMax": 0.2
+  },
+  "navigation": {
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": [],
+    "navigationLevels": {
+      "active": false,
+      "levels": [
+        null
+      ]
+    },
+    "toolbarNavigation": null,
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "navigationTitles": {
+      "active": false,
+      "titles": [
+        null
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "mailto:.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menus": [
+        {
+          "name": "default",
+          "active": true,
+          "items": [
+            {
+              "url": "http://medworks.tech/#Home",
+              "label": "Home",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "url": "http://medworks.tech/#Skills",
+              "label": "Collaborate",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "url": "http://medworks.tech/signupform.html",
+              "label": "Sign Up!",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "label": "Investment",
+              "url": "http://www.investopedia.com/articles/stocks/08/medical-tech-investment.asp",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "label": "Network",
+              "url": "https://github.com/Medworks-2016/",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "label": "Make-a-thon",
+              "url": "http://medhacks.org",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            },
+            {
+              "label": "About Us",
+              "url": "http://medworks.tech/#About",
+              "icon": "fa-chevron-right",
+              "subLinks": []
+            }
+          ]
+        },
+        {
+          "name": "loggedIn",
+          "active": false,
+          "items": [
+            {
+              "url": "http://medworks.tech/google.com",
+              "label": "Sign up!",
+              "subLinks": []
+            },
+            {
+              "url": "http://medworks.tech/#Skills",
+              "label": "Learn more",
+              "subLinks": []
+            },
+            {
+              "url": "http://medworks.tech/#About",
+              "label": "About",
+              "subLinks": []
+            },
+            {
+              "url": "http://medworks.tech/#Home",
+              "label": "Home",
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      }
+    },
+    "tabNavigation": {
+      "active": true,
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {
+              "icon": "fa-home",
+              "label": "Home",
+              "url": "http://medworks.tech/index.html",
+              "subLinks": []
+            },
+            {
+              "icon": "fa-tasks",
+              "label": "Trending",
+              "url": "http://www.activebeat.com/health-news/",
+              "subLinks": []
+            },
+            {
+              "icon": "fa-search",
+              "label": "Search",
+              "url": "https://www.google.com",
+              "subLinks": []
+            },
+            {
+              "label": "Messages",
+              "icon": "fa-envelope-o",
+              "subLinks": []
+            },
+            {
+              "icon": "fa-star",
+              "label": "Notifications",
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ".*"
+        }
+      ]
+    },
+    "iosPullToRefresh": true,
+    "androidPullToRefresh": false
+  },
+  "general": {
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "enableWindowOpen": true,
+    "useCrosswalkWebView": false,
+    "initialUrl": "http://medworks.tech/index.html",
+    "appName": "Medworks",
+    "publicKey": "djrwx",
+    "deviceRegKey": "mt3ea7ctjgq9b3q4t18htpxm7r",
+    "replaceStrings": [],
+    "userAgentRegexes": []
+  }
+}
