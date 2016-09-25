@@ -1,10 +1,6 @@
-gonative-ios
-============
+##Medworks
+http://medworks.tech
 
-This is the native IOS code used by https://www.gonative.io/. It allows the creation of apps from existing mobile-optimized websites.
+MedHacks 2.0 -- iOS Dev
 
-How to use
-------------
-Open project in Xcode. Edit appConfig.json as appropriate.
-
-Licensing information available at https://gonative.io/.
+Creators: Gloria, Abhinav, Shashank, Elquis, Ashir, and Vidhan
